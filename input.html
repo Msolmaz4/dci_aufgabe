@@ -8,15 +8,17 @@
 </head>
 <body>
 
-     <!--<input type="radio" value="weiblich"><br>
-         <input type="radio" value="manlich"><br>
+     <!--<input type="radio" name='ayni olacak' value="weiblich"><br>
+         <input type="radio" name='ayni olacak'value="manlich"><br>
          <input type="submit" value="send">-->
-    <form>
+    <form>  
         <label> Vorname</label><br>
         <input type="text" value=""><br>
 
         <label> Nachname</label><br>
         <input type="text" value=""><br><br>
+        <label for="message">Nachricht</label><br>
+        <textarea id="message" name="nachricht"></textarea><br>
         
 
         <!--Ayni isimleri vermek gerkizor nameler-->
@@ -33,7 +35,9 @@
              <option value="AWS">AWS</option>
              <option value="WEB">WEB</option>
              <option value="Online">MARKETING</option>
-             
          </select>
+         <input type="submit" value="send"> 
+    </form>
+</body>
     
 </html>
