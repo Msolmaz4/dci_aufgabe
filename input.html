@@ -13,10 +13,10 @@
          <input type="submit" value="send">-->
     <form>  
         <label> Vorname</label><br>
-        <input type="text" value=""><br>
+        <input type="text" value="" required><br>
 
         <label> Nachname</label><br>
-        <input type="text" value=""><br><br>
+        <input type="text" value="" required><br><br>
         <label for="message">Nachricht</label><br>
         <textarea id="message" name="nachricht"></textarea><br>
         
@@ -28,6 +28,9 @@
         <input type="radio" name="xz" value="manlich" id="manlich"><br>
      
         
+        <input type="checkbox" name="stadt" checked>Berlin<br>
+        <input type="checkbox" name="stadt">Hamburg<br>
+        <input type="checkbox" name="stadt">Leipzig<br>
         
       
          <select id="Dci">
@@ -36,6 +39,8 @@
              <option value="WEB">WEB</option>
              <option value="Online">MARKETING</option>
          </select>
+         <input type="date" name='Datum'><br>
+         <input type="email" name="Email" required><br>
          <input type="submit" value="send"> 
     </form>
 </body>
