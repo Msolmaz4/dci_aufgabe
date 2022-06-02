@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
@@ -16,7 +16,7 @@
         <input type="text" value="" required><br>
 
         <label> Nachname</label><br>
-        <input type="text" value="" required><br><br>
+        <input type="text" value="" required placeholder="nachname" maxlength="8"><br><br>
         <label for="message">Nachricht</label><br>
         <textarea id="message" name="nachricht"></textarea><br>
         
@@ -39,9 +39,16 @@
              <option value="WEB">WEB</option>
              <option value="Online">MARKETING</option>
          </select>
+
          <input type="date" name='Datum'><br>
          <input type="email" name="Email" required><br>
+         <input type="file" name="File">
+
+
          <input type="submit" value="send"> 
+         <input type="reset" value="clear"><br><br><br>
+         <input type="number" min="1" max="12">
+         <input type="range">
     </form>
 </body>
     
