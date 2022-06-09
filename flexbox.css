@@ -1,0 +1,13 @@
+.flex-contanier{
+    border: 2px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;/*ortalar*/
+    align-items: flex-start;/*bastan baslar end zapikirsa sonda baslar gbundan sonra gelirler*/
+}
+.flex-item ,img{
+    border: 2px solid red;
+    margin: 10px;
+    width: 200px;
+  
+} 

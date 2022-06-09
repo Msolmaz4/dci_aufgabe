@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-weight: 100;
+}
+.nav2{
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+a {
+    
+    height: 50px;
+     width: 80px;
+     margin: auto;
+    text-align: center;
+    padding-top: 3px;
+    color: aliceblue;
+    font-size: 1.5rem;
+    line-height: 40px;
+    text-decoration: none;
+    
+}
+a:hover{
+    background-color: aquamarine;
+}
+.search{
+    margin: 0;
+    height: 200px;
+    width: 100%;
+    background-color: aquamarine;
+}
+h1{
+    text-align: center;
+}
+.hotel{
+    height: 20px;
+    width: 160px;
+}
+.pausal{
+    display: flex;
+    justify-content: space-between;
+}

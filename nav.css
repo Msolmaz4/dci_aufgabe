@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+}
+main{
+margin: 60px 20px 20px 20px;
+}
+header{
+    height: 100px;
+    background-color: darkred;
+    padding: 20px;
+}
+p{
+    color: blueviolet;
+    font-size: 40px;
+    border: 2px solid rebeccapurple;
+
+}
+nav{
+    background-color: goldenrod;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+a:hover{
+    background-color: aqua;
+    color: goldenred;
+}
+h1{
+    margin: 3px;
+    padding: 2px;
+    background-color: aquamarine;
+    display: inline-block;
+    text-align: center;
+    transition: all 2s;
+
+}
