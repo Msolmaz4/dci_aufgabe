@@ -1,54 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link href="reise.css" rel="stylesheet">
+  <head>
+    <link href="reise.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <title>Document</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <nav class="nav2">
-        <a href="home.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
+      <a href="home.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
     </nav>
-    <div class="search">
+    <div>
+      <div>
         <h1>Pausal</h1>
-        <form class="pausal">
-            <div> <label for="hotel"> Hotel</label><br><br>
-                <select class="hotel">
-                    <option name="">Hilton</option>
-                    <option name="">Aras</option>
-                </select>
-            </div>
-               <div>
-                <label class='date' for="hotel"> Abflugdatum</label><br><br>
-                <input type="date">
-               </div>
-               <div>
-                <label class='date' for="hotel"> Ruckreisedatum</label><br><br>
-                <input type="date">
-               </div>
-               <div> <label for="Abflughafen"> Abflughafen</label><br><br>
-                <select class="Abflughafen">
-                    <option name="">Berlin</option>
-                    <option name="">Hambyrg</option>
-                    <option name="">Paris</option>
-                    <option name="">Londra</option>
-
-                </select>
-                <input type='submit' value="send">
-
+      </div>
+      <div> 
+      <form class="search">
+        <div>
+          <label for="hotel" class="text"> Hotel</label><br /><br />
+          <select class="hotel">
+            <option name="">Hilton</option>
+            <option name="">Aras</option>
+          </select>
+        </div>
+        <div>
+          <label class="text" for="hotel"> Abflugdatum</label><br /><br />
+          <input class="hotel" type="date" />
+        </div>
+        <div>
+          <label class="text" for="hotel"> Ruckreisedatum</label><br /><br />
+          <input class="hotel" type="date"/>
+        </div>
+        <div>
+          <label for="Abflughafen" class="text"> Abflughafen</label><br /><br />
+          <select class="hotel">
+            <option name="">Berlin</option>
+            <option name="">Hambyrg</option>
+            <option name="">Paris</option>
+            <option name="">Londra</option>
+          </select>
+        </div>
+        <div>
+          <label for="Abflughafen" class="text">Erwachen </label><br /><br />
+          <select class="hotel">
+            <option name="'">0</option>
+            <option name="">1</option>
+            <option name="">2</option>
+            <option name="">3</option>
+            <option name="">4</option>
+          </select>
+        </div>
+        <div>
+          <label for="Abflughafen" class="text">Kindern </label><br /><br />
+          <select class="hotel">
+            <option name="">0</option>
+            <option name="">1</option>
+            <option name="">2</option>
+            <option name="">3</option>
+            <option name="">4</option>
+          </select>
+        </div>
+      </form>
+    </div>
+    <div class="search">
+        <form>
+           
+            <div> 
+                <label class="vers"> versicherung</label>
+                <input type="checkbox">
+                <input type="submit" class="send"  value="send"/>
+                <input type="reset" class="reset" value="clear" />  
+                 
+              </div>
         </form>
-        <input type="checkbox">
+    </div>
+    </div>
+<div class="mai">
+    <div class="ital">Ita'</div>
+    <div class="deut">Deutschland</div>
+    <div class="eng">England</div>
+    <div class="tur">Turkei</div>
+    <div class="usa">Usa</div>
+    <div class="gre">Grenland</div>
 
-        
+
+
+
+
+</div>
 
     </div>
-
-   
-
-
-
-    
-</body>
+  </body>
 </html>

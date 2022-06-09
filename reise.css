@@ -12,11 +12,13 @@ p {
     width: 100%;
     display: flex;
     justify-content: space-around;
+    margin: 0;
+    padding: 0;
 
 }
 a {
     
-    height: 50px;
+    height: 40px;
      width: 80px;
      margin: auto;
     text-align: center;
@@ -31,19 +33,107 @@ a:hover{
     background-color: aquamarine;
 }
 .search{
+    display: flex;
     margin: 0;
-    height: 200px;
+    padding: 0;
+    height: 100px;
     width: 100%;
     background-color: aquamarine;
+    justify-content: center;
 }
-h1{
-    text-align: center;
+h1 {
+    margin: 0;
+    padding:30px;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+    font-family: 'Hubballi', cursive;
+    
 }
 .hotel{
-    height: 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding-right: 10px;
+    height: 30px;
+    width: 160px;
+    
+}
+.text{
+    font-family: 'Hubballi', cursive;
+    border-radius: 10px;
+    margin-left: 40px;
+    padding-right: 10px;
+    height: 30px;
     width: 160px;
 }
-.pausal{
+.reset{
+    height: 35px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: red;
+    margin-left: 10px;
+    padding-right: 10px;
+    height: 20px;
+    width: 160px;
+    color: aliceblue;
+    
+}
+.send{
+    height: 35px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: blue;
+    margin-left: 10px;
+    padding-right: 10px;
+    height: 20px;
+    width: 160px;
+    color: aliceblue;
+    
+}
+.vers{
+    font-family: 'Hubballi', cursive;
+}
+.mai{
+
+    margin: 0;
+    padding: 0;
+    height: 800px;
+    width: 100%;
+    background-image: url('5.jpeg');
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.ital{
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+}
+.deut{
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+}
+.eng{
+    margin: 1opx;
+    padding: 10px;
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+}
+.tur{
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+}
+.usa{
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+}
+.gre{
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
 }
