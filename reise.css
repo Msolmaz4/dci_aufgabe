@@ -6,6 +6,10 @@ body {
 p {
     font-weight: 100;
 }
+.nav1{
+    height: 45px;
+
+}
 .nav2{
     background-color: black;
     height: 50px;
@@ -34,16 +38,17 @@ a:hover{
 }
 .search{
     display: flex;
+    flex-wrap: wrap;
     margin: 0;
     padding: 0;
-    height: 100px;
+    height: 140px;
     width: 100%;
     background-color: aquamarine;
     justify-content: center;
 }
 h1 {
     margin: 0;
-    padding:30px;
+    
     height: 60px;
     width: 100%;
     display: flex;
@@ -55,18 +60,19 @@ h1 {
 .hotel{
     border-radius: 10px;
     margin-left: 10px;
+
     padding-right: 10px;
     height: 30px;
-    width: 160px;
+    width: 100px;
     
 }
 .text{
     font-family: 'Hubballi', cursive;
     border-radius: 10px;
-    margin-left: 40px;
+    margin-left: 30px;
     padding-right: 10px;
     height: 30px;
-    width: 160px;
+    width: 110px;
 }
 .reset{
     height: 35px;
@@ -92,48 +98,58 @@ h1 {
     color: aliceblue;
     
 }
+.check{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
 .vers{
     font-family: 'Hubballi', cursive;
 }
-.mai{
+.mai1{
 
     margin: 0;
     padding: 0;
-    height: 800px;
+    height: 1000px;
     width: 100%;
     background-image: url('5.jpeg');
     display: flex;
     flex-wrap: wrap;
 }
+
 .ital{
     height: 400px;
-    width: 400px;
+    width: 300px;
     border: 2px solid black;
+    margin: 25px;
 }
 .deut{
     height: 400px;
-    width: 400px;
+    width: 300px;
     border: 2px solid black;
+    margin: 25px;
 }
 .eng{
-    margin: 1opx;
-    padding: 10px;
     height: 400px;
-    width: 400px;
+    width: 300px;
     border: 2px solid black;
+    margin: 25px;
 }
 .tur{
     height: 400px;
-    width: 400px;
+    width: 300px;
     border: 2px solid black;
+    margin: 25px;
 }
 .usa{
     height: 400px;
-    width: 400px;
+    width: 300px;
     border: 2px solid black;
+    margin: 25px;
 }
 .gre{
     height: 400px;
-    width: 400px;
+    width: 300px;
     border: 2px solid black;
+    margin: 25px;
 }

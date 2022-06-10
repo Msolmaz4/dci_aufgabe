@@ -10,6 +10,7 @@
       <a href="home.html">Home</a>
       <a href="about.html">About</a>
       <a href="contact.html">Contact</a>
+      <input type="search" placeholder="search" class="nav1">
     </nav>
     <div>
       <div>
@@ -18,19 +19,19 @@
       <div> 
       <form class="search">
         <div>
-          <label for="hotel" class="text"> Hotel</label><br /><br />
+          <label for="hotel" class="text "> Hotel</label><br /><br />
           <select class="hotel">
             <option name="">Hilton</option>
             <option name="">Aras</option>
           </select>
         </div>
         <div>
-          <label class="text" for="hotel"> Abflugdatum</label><br /><br />
-          <input class="hotel" type="date" />
+          <label class="text" for="hotel" > Abflugdatum</label><br /><br />
+          <input class="hotel" type="date" required />
         </div>
         <div>
           <label class="text" for="hotel"> Ruckreisedatum</label><br /><br />
-          <input class="hotel" type="date"/>
+          <input class="hotel" type="date" required/>
         </div>
         <div>
           <label for="Abflughafen" class="text"> Abflughafen</label><br /><br />
@@ -43,7 +44,7 @@
         </div>
         <div>
           <label for="Abflughafen" class="text">Erwachen </label><br /><br />
-          <select class="hotel">
+          <select class="hotel" required>
             <option name="'">0</option>
             <option name="">1</option>
             <option name="">2</option>
@@ -53,42 +54,42 @@
         </div>
         <div>
           <label for="Abflughafen" class="text">Kindern </label><br /><br />
-          <select class="hotel">
+          <select class="hotel" required>
             <option name="">0</option>
             <option name="">1</option>
             <option name="">2</option>
             <option name="">3</option>
             <option name="">4</option>
-          </select>
+          </select><br>
+          <div class="check">
+            <label class="vers"> versicherung</label>
+            <input type="checkbox">
+      <input type="reset" class="reset" value="clear"/>
+      <input type="submit" class="send"  value="send"/>
+          </div>
+         
         </div>
       </form>
     </div>
-    <div class="search">
-        <form>
-           
-            <div> 
-                <label class="vers"> versicherung</label>
-                <input type="checkbox">
-                <input type="submit" class="send"  value="send"/>
-                <input type="reset" class="reset" value="clear" />  
-                 
-              </div>
-        </form>
+    
     </div>
-    </div>
-<div class="mai">
+<div class="mai1">
     <div class="ital">Ita'</div>
     <div class="deut">Deutschland</div>
     <div class="eng">England</div>
+ 
+ 
     <div class="tur">Turkei</div>
     <div class="usa">Usa</div>
     <div class="gre">Grenland</div>
+  </div>
+   
 
 
 
 
 
-</div>
+
 
     </div>
   </body>
