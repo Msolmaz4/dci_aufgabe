@@ -18,6 +18,7 @@ p {
     justify-content: space-around;
     margin: 0;
     padding: 0;
+    position: fixed;
 
 }
 a {
@@ -43,8 +44,11 @@ a:hover{
     padding: 0;
     height: 140px;
     width: 100%;
-    background-color: aquamarine;
+   
     justify-content: center;
+}
+.back{
+    background-image: url('5.jpeg');
 }
 h1 {
     margin: 0;
@@ -53,7 +57,7 @@ h1 {
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: aquamarine;
+    
     font-family: 'Hubballi', cursive;
     
 }
@@ -110,46 +114,64 @@ h1 {
 
     margin: 0;
     padding: 0;
-    height: 1000px;
+    height: 1600px;
     width: 100%;
     background-image: url('5.jpeg');
+    background-repeat: no-repeat;
     display: flex;
     flex-wrap: wrap;
 }
 
 .ital{
-    height: 400px;
-    width: 300px;
+    height: 300px;
+    width: 530px;
     border: 2px solid black;
-    margin: 25px;
+    margin: 50px;
+    background-repeat: no-repeat;
+    background-image: url('ital.jpg');
+    
 }
 .deut{
-    height: 400px;
-    width: 300px;
+    height: 300px;
+    width: 530px;
     border: 2px solid black;
     margin: 25px;
+    background-image: url('deut.jpg');
 }
 .eng{
-    height: 400px;
-    width: 300px;
+    height: 300px;
+    width: 530px;
     border: 2px solid black;
-    margin: 25px;
+    margin: 50px;
+    background-repeat: no-repeat;
+    background-image: url('eng.jpg');
 }
 .tur{
-    height: 400px;
-    width: 300px;
+    height: 300px;
+    width: 530px;
     border: 2px solid black;
     margin: 25px;
+    background-image: url('turkei.webp');
+    background-repeat: no-repeat;
 }
 .usa{
-    height: 400px;
-    width: 300px;
+    height: 300px;
+    width: 530px;
     border: 2px solid black;
     margin: 25px;
+    background-image: url('usa.jpg');
+    background-repeat: no-repeat;
 }
 .gre{
-    height: 400px;
-    width: 300px;
+    height: 300px;
+    width: 530px;
     border: 2px solid black;
     margin: 25px;
+    background-image: url('gre.jpg');
+    background-repeat: no-repeat;
+}
+.letzt{
+    height: 150px;
+    width: 100%;
+    background-color: red;
 }
