@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-weight: 100;
+}
+.nav1{
+    height: 45px;
+    margin-right: 20px;
+
+}
+.nav2{
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+
+}
+a {
+    
+    height: 40px;
+     width: 80px;
+     margin: auto;
+    text-align: center;
+    padding-top: 3px;
+    color: aliceblue;
+    font-size: 1.5rem;
+    line-height: 40px;
+    text-decoration: none;
+    
+}
+a:hover{
+    background-color: aquamarine;
+}
+.search{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    height: 140px;
+    width: 100%;
+    justify-content: center;
+}
+.den{
+    margin: 0;
+    display: flex;
+    border: 2px solid red;
+    padding: 25px;
+}
