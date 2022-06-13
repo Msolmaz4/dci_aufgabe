@@ -116,6 +116,8 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     transition: 0.5s;
+   
+    
 
 }
 .ital:hover{
@@ -131,6 +133,8 @@ h1 {
     background-repeat: no-repeat;
     background-image: url('ital.jpg');
     background-size: 100% 100%;/* tamami*/  
+    color: black;
+    font-size: 39px;
 }
 
 
@@ -142,6 +146,8 @@ h1 {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-image: url('deut.jpg');
+    color: black;
+    font-size: 39px;
  
 }
 .deut:hover{
@@ -157,6 +163,8 @@ h1 {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-image: url('eng.jpg');
+    color: black;
+    font-size: 39px;
 }
 .eng:hover{
     transform: scale(1.1);
@@ -171,6 +179,8 @@ h1 {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-image: url('paris.jpg');
+    color: black;
+    font-size: 39px;
 }
 .par:hover{
     transform: scale(1.1);
@@ -184,6 +194,8 @@ h1 {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-image: url('usa.jpg');
+    color: black;
+    font-size: 39px;
 }
 .usa:hover{
     transform: scale(1.1);
@@ -197,6 +209,8 @@ h1 {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-image: url('gre.jpg');
+    color: black;
+    font-size: 39px;
 
 }
 .gre:hover{
